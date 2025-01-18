@@ -41,6 +41,7 @@ namespace QRCreator
 
             m_lstApiRequests = new List<ApiRequest>();
             m_strFileNameCsv = string.Empty;
+            // add comment 2
         }
 
         private void CopyImageItem_Click(object? sender, EventArgs e)
