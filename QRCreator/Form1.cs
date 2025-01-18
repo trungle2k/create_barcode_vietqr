@@ -274,5 +274,7 @@ namespace QRCreator
                 txtNoiDung.Enabled = true;
             }
         }
+
+        // test commit: gitTest branch
     }
 }
