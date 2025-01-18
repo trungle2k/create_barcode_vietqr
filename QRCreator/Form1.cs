@@ -8,6 +8,7 @@ namespace QRCreator
     {
         private NotifyIcon m_notifyIcon;
         private List<ApiRequest> m_lstApiRequests;
+        private string m_strFileNameCsv;
 
         public Form1()
         {
@@ -37,6 +38,7 @@ namespace QRCreator
             };
 
             m_lstApiRequests = new List<ApiRequest>();
+            m_strFileNameCsv = string.Empty;
         }
 
         private void CopyImageItem_Click(object? sender, EventArgs e)
@@ -258,11 +260,15 @@ namespace QRCreator
         {
             if (checkBox1.Checked == true)
             {
-
+                btnLoadFile.Enabled = true;
+                txtSoTien.Enabled = false;
+                txtNoiDung.Enabled = false;
             }
             else 
-            { 
-
+            {
+                btnLoadFile.Enabled = false;
+                txtSoTien.Enabled = true;
+                txtNoiDung.Enabled = true;
             }
         }
     }
