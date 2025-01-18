@@ -14,6 +14,8 @@ namespace QRCreator
         {
             InitializeComponent();
 
+            // Hello 
+            // Hi 
             // Create ContextMenuStrip
             ContextMenuStrip contextMenu = new ContextMenuStrip();
 
