@@ -281,5 +281,6 @@ namespace QRCreator
         // commit : crate_barcode_vietqr branch
 
         // test commit: gitTest branch
+        // test commit2: gitTest branch2
     }
 }
