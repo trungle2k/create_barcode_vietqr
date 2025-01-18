@@ -40,8 +40,8 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
-            textBox1 = new TextBox();
+            btnLoadFile = new Button();
+            txtNoiDung = new TextBox();
             label5 = new Label();
             checkBox1 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)txtSoTien).BeginInit();
@@ -157,23 +157,23 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += buttonCreateQR_Click;
             // 
-            // button4
+            // btnLoadFile
             // 
-            button4.Location = new Point(27, 405);
-            button4.Name = "button4";
-            button4.Size = new Size(80, 23);
-            button4.TabIndex = 12;
-            button4.Text = "Load file";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += buttonCretateQRFromFile_Click;
+            btnLoadFile.Location = new Point(27, 405);
+            btnLoadFile.Name = "btnLoadFile";
+            btnLoadFile.Size = new Size(80, 23);
+            btnLoadFile.TabIndex = 12;
+            btnLoadFile.Text = "Load file";
+            btnLoadFile.UseVisualStyleBackColor = true;
+            btnLoadFile.Click += buttonCretateQRFromFile_Click;
             // 
-            // textBox1
+            // txtNoiDung
             // 
-            textBox1.Location = new Point(27, 227);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(185, 81);
-            textBox1.TabIndex = 14;
+            txtNoiDung.Location = new Point(27, 227);
+            txtNoiDung.Multiline = true;
+            txtNoiDung.Name = "txtNoiDung";
+            txtNoiDung.Size = new Size(185, 81);
+            txtNoiDung.TabIndex = 14;
             // 
             // label5
             // 
@@ -201,9 +201,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(693, 472);
             Controls.Add(checkBox1);
-            Controls.Add(textBox1);
+            Controls.Add(txtNoiDung);
             Controls.Add(label5);
-            Controls.Add(button4);
+            Controls.Add(btnLoadFile);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -241,8 +241,8 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private Button button4;
-        private TextBox textBox1;
+        private Button btnLoadFile;
+        private TextBox txtNoiDung;
         private Label label5;
         private CheckBox checkBox1;
     }
