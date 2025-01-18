@@ -285,5 +285,6 @@ namespace QRCreator
         // test commit2: gitTest branch2
         // coding 1
         // coding 2
+        // coding 3
     }
 }
