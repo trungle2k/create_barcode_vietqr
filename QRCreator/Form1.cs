@@ -286,5 +286,6 @@ namespace QRCreator
         // coding 1
         // coding 2
         // coding 3
+        // coding 4
     }
 }
