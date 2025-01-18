@@ -6,7 +6,7 @@ namespace QRCreator
 {
     public partial class Form1 : Form
     {
-        private NotifyIcon notifyIcon;
+        private NotifyIcon m_notifyIcon;
         private List<ApiRequest> m_lstApiRequests;
 
         public Form1()
@@ -27,7 +27,7 @@ namespace QRCreator
             cb_template.SelectedIndex = 1;
 
             // Initialize NotifyIcon
-            notifyIcon = new NotifyIcon
+            m_notifyIcon = new NotifyIcon
             {
                 Icon = SystemIcons.Information, // Use a built-in icon or your own
                 Visible = true, // Make it visible in the system tray
@@ -164,22 +164,22 @@ namespace QRCreator
 
         public void ShowNotification(string title, string message)
         {
-            if (notifyIcon != null)
+            if (m_notifyIcon != null)
             {
-                notifyIcon.BalloonTipTitle = title;
-                notifyIcon.BalloonTipText = message;
-                notifyIcon.ShowBalloonTip(3000); // Show for 3 seconds
+                m_notifyIcon.BalloonTipTitle = title;
+                m_notifyIcon.BalloonTipText = message;
+                m_notifyIcon.ShowBalloonTip(3000); // Show for 3 seconds
             }
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             // Cleanup NotifyIcon when the form closes
-            notifyIcon.Dispose();
+            m_notifyIcon.Dispose();
             base.OnFormClosing(e);
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void buttonCretateQRFromFile_Click(object sender, EventArgs e)
         {
             // Open File Dialog to choose Excel file
             using (OpenFileDialog openFileDialog = new OpenFileDialog())

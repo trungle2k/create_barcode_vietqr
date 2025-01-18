@@ -165,7 +165,7 @@
             button4.TabIndex = 12;
             button4.Text = "Load file";
             button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            button4.Click += buttonCretateQRFromFile_Click;
             // 
             // textBox1
             // 
