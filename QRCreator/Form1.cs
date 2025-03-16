@@ -175,6 +175,7 @@ namespace QRCreator
                 m_notifyIcon.BalloonTipTitle = title;
                 m_notifyIcon.BalloonTipText = message;
                 m_notifyIcon.ShowBalloonTip(3000); // Show for 3 seconds
+                // hello 4
             }
         }
 
@@ -183,6 +184,7 @@ namespace QRCreator
             // Cleanup NotifyIcon when the form closes
             m_notifyIcon.Dispose();
             base.OnFormClosing(e);
+            // xin chào 3
         }
 
         private void buttonCretateQRFromFile_Click(object sender, EventArgs e)
@@ -271,7 +273,7 @@ namespace QRCreator
                 txtSoTien.Enabled = false;
                 txtNoiDung.Enabled = false;
             }
-            else 
+            else
             {
                 btnLoadFile.Enabled = false;
                 txtSoTien.Enabled = true;
@@ -283,7 +285,11 @@ namespace QRCreator
 
         // test commit: gitTest branch
         // test commit2: gitTest branch2
+        // coding  No 1
+        // coding 2
+        // coding 3
+        // coding 4
         // commit NO1:
-        // commit no2:
+        // commit no2:fghgfdhhgf
     }
 }
