@@ -26,6 +26,7 @@
     public class ApiResponse
     {
         public string? code { get; set; }
+        // Main: Coding 6
         public string? desc { get; set; }
         public Data? data { get; set; }
         // Main: Coding 2
