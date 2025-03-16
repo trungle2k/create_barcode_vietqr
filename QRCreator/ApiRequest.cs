@@ -18,6 +18,7 @@
         public string? accountName { get; set; }
         public string? qrCode { get; set; }
         public string? qrDataURL { get; set; }
+        // Main: Coding
     }
 
     public class ApiResponse
