@@ -27,6 +27,7 @@ namespace QRCreator
             // Assign ContextMenuStrip to PictureBox
             pictureBox1.ContextMenuStrip = contextMenu;
 
+            // Main: Commit 2
             cb_template.SelectedIndex = 1;
 
             // Initialize NotifyIcon
