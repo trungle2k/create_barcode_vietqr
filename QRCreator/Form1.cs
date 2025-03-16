@@ -184,6 +184,7 @@ namespace QRCreator
             // Cleanup NotifyIcon when the form closes
             m_notifyIcon.Dispose();
             base.OnFormClosing(e);
+            // xin chào 3
         }
 
         private void buttonCretateQRFromFile_Click(object sender, EventArgs e)
