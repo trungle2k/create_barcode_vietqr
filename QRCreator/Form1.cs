@@ -270,6 +270,7 @@ namespace QRCreator
                 btnLoadFile.Enabled = true;
                 txtSoTien.Enabled = false;
                 txtNoiDung.Enabled = false;
+                txtNoiDung.Enabled = false; // Main: commit 1
             }
             else 
             {
