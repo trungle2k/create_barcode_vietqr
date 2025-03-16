@@ -18,6 +18,7 @@ namespace QRCreator
             // Hi 
             // Create ContextMenuStrip
             ContextMenuStrip contextMenu = new ContextMenuStrip();
+            // Main: Commit 3
 
             // Add "Copy Image" menu item
             ToolStripMenuItem copyImageItem = new ToolStripMenuItem("Copy Image");
