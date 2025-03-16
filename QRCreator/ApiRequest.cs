@@ -18,6 +18,7 @@
     {
         public int acpId { get; set; }
         public string? accountName { get; set; }
+        // Main: Coding 5
         public string? qrCode { get; set; }
         public string? qrDataURL { get; set; }
         // Main: Coding
