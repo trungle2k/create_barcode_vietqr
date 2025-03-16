@@ -271,7 +271,7 @@ namespace QRCreator
                 txtSoTien.Enabled = false;
                 txtNoiDung.Enabled = false;
             }
-            else 
+            else
             {
                 btnLoadFile.Enabled = false;
                 txtSoTien.Enabled = true;
@@ -287,5 +287,7 @@ namespace QRCreator
         // coding 2
         // coding 3
         // coding 4
+        // commit NO1:
+        // commit no2:fghgfdhhgf
     }
 }
