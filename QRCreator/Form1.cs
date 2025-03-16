@@ -176,6 +176,7 @@ namespace QRCreator
                 m_notifyIcon.BalloonTipTitle = title;
                 m_notifyIcon.BalloonTipText = message;
                 m_notifyIcon.ShowBalloonTip(3000); // Show for 3 seconds
+                // hello 4
             }
         }
 
