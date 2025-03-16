@@ -166,7 +166,6 @@ namespace QRCreator
             {
                 e.Handled = true; // Reject the input
             }
-            // hello 1
         }
 
         public void ShowNotification(string title, string message)
@@ -218,7 +217,6 @@ namespace QRCreator
                             };
                             m_lstApiRequests.Add(record);
                         }
-                        // hello 2
                     }
 
                     if (m_lstApiRequests.Count > 0)
