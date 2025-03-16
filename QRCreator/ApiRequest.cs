@@ -8,6 +8,7 @@
         public int amount { get; set; }
         public string? addInfo { get; set; }
         public string? format { get; set; }
+        // Main: Coding 3
         public string? template { get; set; }
     }
 
